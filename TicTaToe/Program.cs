@@ -76,7 +76,6 @@ namespace TicTaToe
                         } while ((moveX < 0 || moveX > n-1) || (moveY < 0 || moveY > n-1));
                 }
             }while (field[moveX, moveY] != 0);
-
     
 			field[moveX,moveY] = m;
 		}
@@ -130,5 +129,3 @@ namespace TicTaToe
 		}
 	}
 }
-
-
